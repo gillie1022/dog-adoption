@@ -16,4 +16,8 @@ font-family: "Open Sans";}
 footer img{width: 32.5%;
             max-height: height 50px; ;}
 
+.dogbox{display: flexbox;
+    box-sizing: border-box;}
 
+
+span{display: inline}
