@@ -5,7 +5,7 @@ header{background-color: #243b75;
     border-bottom: 2px solid aquamarine ;
     padding-left: 50px;}
 
-.dog{width:30%;
+/* .dog{width:30%;
     vertical-align: top;}
 
 .pups{padding-left: 50px;}
@@ -14,13 +14,19 @@ header{background-color: #243b75;
 font-family: "Open Sans";}
 
 footer img{width: 32.5%;
-            max-height: height 50px; ;}
+            max-height: height 50px; ;} */
 
-.dogbox{display: flexbox;
+.dogbox{width:30%;}
+.dogbox:hover{box-shadow: #ffffff;}
 
-    flex-direction: column;}
 
-
-span{display: inline}
+span{display: inline;
+background-color: aquamarine;}
 
 .test{display:;}
+
+.card{display:inline-block;
+    width: 30%;
+    vertical-align: top;}
+
+.dogpic{width:100%;}
