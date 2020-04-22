@@ -1,9 +1,19 @@
-.dog{width:30%;}
-
 header{background-color: #243b75;
-color: #ffffff;
-font-family:"Open Sans";
-padding: 25px;
-border-bottom: 5px solid aquamarine ;}
+    color: #ffffff;
+    font-family:"Open Sans";
+    padding: 5px;
+    border-bottom: 2px solid aquamarine ;
+    padding-left: 50px;}
+
+.dog{width:30%;
+    vertical-align: top;}
+
+.pups{padding-left: 50px;}
+
+.copy{padding-left: 50px;
+font-family: "Open Sans";}
+
+footer img{width: 32.5%;
+            max-height: height 50px; ;}
 
 
