@@ -8,8 +8,11 @@ header{background-color: #243b75;
 .copy{padding-left: 50px;
 font-family: "Open Sans";}
 
-span{display: inline;
-background-color: aquamarine;}
+span{display: inline-block;
+background-color: aquamarine;
+border-radius: 20%;
+padding:2px;
+margin:2px;}
 
 .card{display:inline-block;
     width: 30%;
@@ -17,4 +20,7 @@ background-color: aquamarine;}
 
 .dogpic{width:100%;}
 
-.page{padding-left: 50px;}
+.page{padding-left: 50px;
+font-family: "Oswald";}
+
+h3{margin:10px 0px 5px;}
