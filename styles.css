@@ -12,16 +12,12 @@ header {
   font-family: "Open Sans";
 }
 
-span {
-  display: inline-block;
-  background-color: aquamarine;
-  border-radius: 20%;
-  padding: 2px;
-  margin: 2px;
-}
-
 .card {
-  display: inline-block;
+  display: flex;
+  flex-flow: wrap;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 50px;
   width: 30%;
   vertical-align: top;
 }
@@ -30,22 +26,26 @@ span {
   width: 100%;
 }
 
-.page {
-  padding-left: 50px;
+.traits {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: flex-start;
+}
+
+span {
+  background-color: #16b2fa;
+  border-radius: 20px;
+  padding: 2px 5px;
+  margin: 2px;
+}
+
+.deck {
+  display: flex;
+  flex-flow: wrap;
+  margin-left: 50px;
   font-family: "Oswald";
 }
 
 h3 {
-  margin: 10px 0px 5px;
-}
-
-footer {
-  height: 10%%;
-  display: inline;
-}
-
-.footerpic {
-  display: inline-block;
-  width: auto%;
-  height: 300px;
+  margin: 5px 0px 5px;
 }
