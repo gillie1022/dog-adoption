@@ -24,3 +24,13 @@ margin:2px;}
 font-family: "Oswald";}
 
 h3{margin:10px 0px 5px;}
+
+footer{height: 10%%;
+display:inline;
+  }
+
+
+.footerpic{display:inline-block;
+    width: auto%;
+    height: 300px;
+}
