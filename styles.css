@@ -9,15 +9,13 @@ header {
 
 .copy {
   padding-left: 50px;
+  padding-right: 50px;
   font-family: "Open Sans";
 }
 
 .card {
-  display: flex;
-  flex-flow: wrap;
-  margin-top: 10px;
-  margin-right: 10px;
-  margin-bottom: 50px;
+  padding-top: 10px;
+  padding-bottom: 20px;
   width: 30%;
   vertical-align: top;
 }
@@ -29,7 +27,8 @@ header {
 .traits {
   display: flex;
   flex-flow: wrap;
-  justify-content: flex-start;
+  /* justify-content: flex-start; */
+  font-size: 0.8em;
 }
 
 span {
@@ -40,9 +39,11 @@ span {
 }
 
 .deck {
+  padding-left: 50px;
+  padding-right: 50px;
   display: flex;
   flex-flow: wrap;
-  margin-left: 50px;
+  justify-content: space-between;
   font-family: "Oswald";
 }
 
