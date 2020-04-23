@@ -3,7 +3,7 @@ header {
   color: #ffffff;
   font-family: "Open Sans";
   padding: 5px;
-  border-bottom: 2px solid aquamarine;
+  border-bottom: 2px solid #8fdef1;
   padding-left: 50px;
 }
 
@@ -11,6 +11,15 @@ header {
   padding-left: 50px;
   padding-right: 50px;
   font-family: "Open Sans";
+}
+
+.deck {
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  font-family: "Oswald";
 }
 
 .card {
@@ -24,29 +33,73 @@ header {
   width: 100%;
 }
 
+h3 {
+  margin: 5px 0px 5px;
+}
+
 .traits {
   display: flex;
   flex-flow: wrap;
-  /* justify-content: flex-start; */
   font-size: 0.8em;
 }
 
-span {
-  background-color: #16b2fa;
+.traits span {
+  background-color: #8fdef1;
   border-radius: 20px;
   padding: 2px 5px;
   margin: 2px;
 }
 
-.deck {
-  padding-left: 50px;
-  padding-right: 50px;
-  display: flex;
-  flex-flow: wrap;
-  justify-content: space-between;
+footer {
   font-family: "Oswald";
+  color: #ffffff;
+  font-size: 20px;
+  display: flex;
+  height: 30vh;
+  justify-content: center;
+  align-items: center;
 }
 
-h3 {
-  margin: 5px 0px 5px;
+#donate {
+  background-image: linear-gradient(
+      rgba(68, 0, 255, 0.404),
+      rgba(68, 0, 255, 0.404)
+    ),
+    url(starter_files/images/donate.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+#volunteer {
+  background-image: linear-gradient(
+      rgba(68, 0, 255, 0.404),
+      rgba(68, 0, 255, 0.404)
+    ),
+    url(starter_files/images/volunteer.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+#location {
+  background-image: linear-gradient(
+      rgba(68, 0, 255, 0.404),
+      rgba(68, 0, 255, 0.404)
+    ),
+    url(starter_files/images/location.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33%;
+  height: 100%;
+  background-size: cover;
 }
