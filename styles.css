@@ -1,36 +1,51 @@
-header{background-color: #243b75;
-    color: #ffffff;
-    font-family:"Open Sans";
-    padding: 5px;
-    border-bottom: 2px solid aquamarine ;
-    padding-left: 50px;}
+header {
+  background-color: #243b75;
+  color: #ffffff;
+  font-family: "Open Sans";
+  padding: 5px;
+  border-bottom: 2px solid aquamarine;
+  padding-left: 50px;
+}
 
-.copy{padding-left: 50px;
-font-family: "Open Sans";}
+.copy {
+  padding-left: 50px;
+  font-family: "Open Sans";
+}
 
-span{display: inline-block;
-background-color: aquamarine;
-border-radius: 20%;
-padding:2px;
-margin:2px;}
+span {
+  display: inline-block;
+  background-color: aquamarine;
+  border-radius: 20%;
+  padding: 2px;
+  margin: 2px;
+}
 
-.card{display:inline-block;
-    width: 30%;
-    vertical-align: top;}
+.card {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+}
 
-.dogpic{width:100%;}
+.dogpic {
+  width: 100%;
+}
 
-.page{padding-left: 50px;
-font-family: "Oswald";}
+.page {
+  padding-left: 50px;
+  font-family: "Oswald";
+}
 
-h3{margin:10px 0px 5px;}
+h3 {
+  margin: 10px 0px 5px;
+}
 
-footer{height: 10%%;
-display:inline;
-  }
+footer {
+  height: 10%%;
+  display: inline;
+}
 
-
-.footerpic{display:inline-block;
-    width: auto%;
-    height: 300px;
+.footerpic {
+  display: inline-block;
+  width: auto%;
+  height: 300px;
 }

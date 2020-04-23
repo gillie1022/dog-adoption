@@ -1,0 +1,51 @@
+header {
+  background-color: #243b75;
+  color: #ffffff;
+  font-family: "Open Sans";
+  padding: 5px;
+  border-bottom: 2px solid aquamarine;
+  padding-left: 50px;
+}
+
+.copy {
+  padding-left: 50px;
+  font-family: "Open Sans";
+}
+
+.card {
+  display: flex;
+  flex-flow: wrap;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 50px;
+  width: 30%;
+  vertical-align: top;
+}
+
+.dogpic {
+  width: 100%;
+}
+
+.traits {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: flex-start;
+}
+
+span {
+  background-color: #16b2fa;
+  border-radius: 20px;
+  padding: 2px 5px;
+  margin: 2px;
+}
+
+.deck {
+  display: flex;
+  flex-flow: wrap;
+  margin-left: 50px;
+  font-family: "Oswald";
+}
+
+h3 {
+  margin: 5px 0px 5px;
+}
