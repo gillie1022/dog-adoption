@@ -51,13 +51,11 @@ h3 {
 }
 
 footer {
+  display: flex;
+  height: 30vh;
   font-family: "Oswald";
   color: #ffffff;
   font-size: 32px;
-  display: flex;
-  height: 30vh;
-  justify-content: center;
-  align-items: center;
 }
 
 .footerSection {
