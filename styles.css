@@ -76,6 +76,10 @@ footer {
     url(starter_files/images/donate.jpg);
 }
 
+#donate a {
+  color: white;
+}
+
 #volunteer {
   background-image: linear-gradient(
       rgba(68, 0, 255, 0.404),
@@ -84,10 +88,23 @@ footer {
     url(starter_files/images/volunteer.jpg);
 }
 
+#volunteer a {
+  color: white;
+}
+
 #location {
   background-image: linear-gradient(
       rgba(68, 0, 255, 0.404),
       rgba(68, 0, 255, 0.404)
     ),
     url(starter_files/images/location.png);
+}
+
+#location a {
+  color: white
+}
+
+background-image{
+  width: 100%;
+  height: auto;
 }
