@@ -1,7 +1,3 @@
-# Build a Dog Adoption Site
-
-## Directions
-
 Your task is to build one page for an animal shelter. You will need to build the HTML and CSS to make this page. The page should look like the following:
 
 ![Image of the final page](page.png)
